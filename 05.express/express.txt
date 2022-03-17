@@ -1,0 +1,12 @@
+什么是express？
+官方给出的概念：Express是基于nodejs平台，快速、开放、极简的web开发框架
+通俗的理解：Express的作用和nodejs内置的http模块类似，是专门来创建Web服务器的
+
+1.不使用Express能否创建Web服务器？
+能，使用nodejs提供的原生http模块即可
+
+2.有了http内置模块，为什么还要使用Express
+http内置模块用起来很复杂，开发效率低；Express是基于内置的http模块进一步封装出来的，能够极大的提高开发效率
+
+3.http内置模块与Express是什么关系？
+类似于浏览器中Web API和jQuery的关系，后者是基于前者的进一步封装
